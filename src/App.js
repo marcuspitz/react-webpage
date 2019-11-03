@@ -15,18 +15,18 @@ class App extends React.Component {
         
     }
   
-    render() {
-      return (
+    render() {        
+        return (
         <div className="App">
             <header className="App-header">      
-                <p>
-                App page
-                <br></br>
-                <NavLink to="/About">About page</NavLink>
-                </p>      
+            <p>
+            App page
+            <br></br>
+            <NavLink to="/About">About page</NavLink>
+            </p>      
             </header>
         </div>
-      );
+        );
     }
 }
 
