@@ -1,8 +1,7 @@
 import React from 'react';
-import './App.css';
 import { NavLink } from 'react-router-dom'
 
-class App extends React.Component {
+class About extends React.Component {
     constructor(props) {
       super(props);      
     }
@@ -17,12 +16,12 @@ class App extends React.Component {
   
     render() {
       return (
-        <div className="App">
-            <header className="App-header">      
+        <div className="About">
+            <header className="About-header">      
                 <p>
-                App page
+                About page
                 <br></br>
-                <NavLink to="/About">About page</NavLink>
+                <NavLink to="/">Return home</NavLink>
                 </p>      
             </header>
         </div>
@@ -30,4 +29,4 @@ class App extends React.Component {
     }
 }
 
-export default App;
+export default About;

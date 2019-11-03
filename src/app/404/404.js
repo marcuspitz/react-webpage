@@ -1,8 +1,7 @@
 import React from 'react';
-import './App.css';
 import { NavLink } from 'react-router-dom'
 
-class App extends React.Component {
+class Error404 extends React.Component {
     constructor(props) {
       super(props);      
     }
@@ -17,12 +16,12 @@ class App extends React.Component {
   
     render() {
       return (
-        <div className="App">
-            <header className="App-header">      
+        <div className="404">
+            <header className="404-header">      
                 <p>
-                App page
+                Page not found - ERROR 404
                 <br></br>
-                <NavLink to="/About">About page</NavLink>
+                <NavLink to="/">Return home</NavLink>
                 </p>      
             </header>
         </div>
@@ -30,4 +29,4 @@ class App extends React.Component {
     }
 }
 
-export default App;
+export default Error404;
